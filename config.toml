@@ -1,5 +1,8 @@
 # The URL the site will be built for
-base_url = "https://davidrhaynes.com"
+base_url = "davidrhaynes.com"
+
+title = "Inventing the Future"
+description = "The site of David Haynes"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -9,9 +12,9 @@ build_search_index = false
 
 theme = "anpu"
 
-title = "Anpu theme"
-description = "A clean blogging theme"
 generate_feed = true
+
+minify_html = true
 
 taxonomies = [
     {name = "tags", rss = true},
